@@ -28,7 +28,7 @@ public class DriveTrain extends Subsystem {
 
   public DifferentialDrive differentialDrive = null;
 
-  public void Drivetrain(){
+  public DriveTrain(){
     leftBackSpark = new Spark(RobotMap.DRIEVETRAIN_LEFT_BACK_SPARK);
     leftFrontSpark = new Spark(RobotMap.DRIEVETRAIN_LEFT_FRONT_SPARK);
     rightBackSpark = new Spark(RobotMap.DRIEVETRAIN_RIGHT_BACK_SPARK);
