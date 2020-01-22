@@ -21,7 +21,7 @@ public class OI {
   // number it is.
   // Joystick stick = new Joystick(port);
   // Button button = new JoystickButton(stick, buttonNumber);
-  public Joystick driveController = new Joystick(RobotMap.OI_DRIVER_CONTROLLER)
+  public Joystick driveController = new Joystick(RobotMap.OI_DRIVER_CONTROLLER);
   // There are a few additional built in buttons you can use. Addition ally,
   // by subclassing Button you can create custom triggers and bind those to
   // commands the same as any other Button.
